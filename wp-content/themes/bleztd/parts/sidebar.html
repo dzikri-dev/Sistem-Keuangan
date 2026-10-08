@@ -1,0 +1,28 @@
+<!-- wp:group {"className":"blezt-sidebar-inner","layout":{"type":"flex","orientation":"vertical","justifyContent":"space-between"},"style":{"spacing":{"blockGap":"var:preset|spacing|60"}}} -->
+<div class="wp-block-group blezt-sidebar-inner">
+	<!-- wp:group {"layout":{"type":"flex","orientation":"vertical"},"style":{"spacing":{"blockGap":"var:preset|spacing|40"}}} -->
+	<div class="wp-block-group">
+		<!-- wp:site-title {"level":0} /-->
+		<!-- wp:group {"className":"blezt-nav","layout":{"type":"flex","orientation":"vertical"},"style":{"spacing":{"blockGap":"6px"}}} -->
+		<div class="wp-block-group blezt-nav">
+			<!-- wp:page-list {"className":"blezt-nav-list"} /-->
+		</div>
+		<!-- /wp:group -->
+	</div>
+	<!-- /wp:group -->
+
+	<!-- wp:group {"className":"blezt-live","layout":{"type":"flex","orientation":"vertical"},"style":{"spacing":{"blockGap":"4px"}}} -->
+	<div class="wp-block-group blezt-live">
+		<!-- wp:paragraph {"className":"blezt-label"} -->
+		<p class="blezt-label">Saldo tunai</p>
+		<!-- /wp:paragraph -->
+		<!-- wp:shortcode -->
+		[blezt_saldo]
+		<!-- /wp:shortcode -->
+		<!-- wp:paragraph {"className":"blezt-live-sub"} -->
+		<p class="blezt-live-sub">Periode berjalan</p>
+		<!-- /wp:paragraph -->
+	</div>
+	<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
